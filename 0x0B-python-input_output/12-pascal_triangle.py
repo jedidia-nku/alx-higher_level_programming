@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""pascal_traigle module."""
+"""Defines a Pascal's Triangle function."""
 
 
 def pascal_triangle(n):
-    """ pascal traigle class body.
+    """Represent Pascal's Triangle of size n.
+
+    Returns a list of lists of integers representing the triangle.
     """
     if n <= 0:
         return []
@@ -16,4 +18,4 @@ def pascal_triangle(n):
             tmp.append(tri[i] + tri[i + 1])
         tmp.append(1)
         triangles.append(tmp)
-    return
+    return triangles
