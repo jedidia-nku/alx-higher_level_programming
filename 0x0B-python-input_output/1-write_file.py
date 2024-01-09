@@ -1,4 +1,5 @@
- Write_file module."""
+#!/usr/bin/python3
+"""Defines Write_file module."""
 
 
 def write_file(filename="", text=""):
