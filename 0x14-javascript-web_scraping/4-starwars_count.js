@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 t request = require('request');
+=======
+#!/usr/bin/node
+
+const request = require('request');
+>>>>>>> 5ea10fcd83d3e5350e69fe8353e614a0cdb15142
 
 const url = process.argv[2];
 
